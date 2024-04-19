@@ -1,0 +1,7 @@
+# virtual environments and variables
+venv
+.venv
+.env
+
+
+

@@ -10,15 +10,15 @@ def generator_fibonacci(first_n_in_serie=None):
     n2 = None
     while total == None or counter <= total:
         if counter == 1:
-            n1 = counter
+            n1 = 1
             yield n1
         elif counter == 2:
-            n2 = counter
+            n2 = 1
             yield n2
         else:
-            tm = n2
+            tmp = n2
             n2 = n2 + n1
-            n1 = n2
+            n1 = tmp
             yield n2
         counter += 1
 
